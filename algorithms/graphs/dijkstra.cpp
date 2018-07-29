@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 #define INF 0x3f3f3f3f
-
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 typedef vector<pii> vpii;

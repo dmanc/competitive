@@ -1,10 +1,8 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 #define INF 0x3f3f3f3f
 #define MOD 1e9 + 7
-
 typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
@@ -17,7 +15,6 @@ int main() {
     while(T--) {
         int N, R, M;
         scanf("%d %d %d", &N, &R, &M);
-        
         vvi adj(N+1);
         for(int i = 0; i<R; i++) {
             int U, V;

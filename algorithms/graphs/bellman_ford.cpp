@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 #define INF 0x3f3f3f3f
-
 typedef vector<int> vi;
 typedef tuple<int, int, int> iii;
 typedef vector<iii> viii;
@@ -57,6 +55,5 @@ int main() {
         else cout << dist[i] << " ";
     }
     cout << "\n";
-
     return 0;
 }
